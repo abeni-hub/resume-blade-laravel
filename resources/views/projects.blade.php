@@ -12,11 +12,11 @@
                     <h3 class="text-2xl font-semibold mb-3">Inventory Management System</h3>
                     <p class="text-gray-600 dark:text-gray-400 mb-4">A comprehensive system for tracking and managing inventory items efficiently.</p>
                     <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Laravel</span>
-                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">PHP</span>
-                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">MySQL</span>
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Django RF</span>
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">React</span>
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">sqlite</span>
                     </div>
-                    <a href="#" class="block mt-4 text-blue-500 hover:underline">View Details</a>
+                    <a href="https://github.com/abeni-hub/Store_Management_System" class="block mt-4 text-blue-500 hover:underline">View Details</a>
                 </div>
             </div>
             <div class="bg-white/30 dark:bg-gray-800/30 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300">
@@ -25,11 +25,37 @@
                     <h3 class="text-2xl font-semibold mb-3">Kids Clinic Website</h3>
                     <p class="text-gray-600 dark:text-gray-400 mb-4">A user-friendly website for a pediatric clinic, including appointment booking and resources.</p>
                     <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Laravel</span>
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">React</span>
                         <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Tailwind CSS</span>
-                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">JavaScript</span>
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Django API</span>
                     </div>
-                    <a href="#" class="block mt-4 text-blue-500 hover:underline">View Details</a>
+                    <a href="https://github.com/abeni-hub/CMS-with-Authentication" class="block mt-4 text-blue-500 hover:underline">View Details</a>
+                </div>
+            </div>
+            <div class="bg-white/30 dark:bg-gray-800/30 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300">
+                <img src="{{ asset('portfolios/rasp.jpg') }}" alt="Bus Ticket Booking System" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-3">SIDS Monitoring System</h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-4">A smart infant monitoring system that uses Django for backend processing, React for the interface, and Raspberry Pi with hardware sensors to track vital signs and alert caregivers for early detection of Sudden Infant Death Syndrome risks.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">React</span>
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Django API</span>
+                         <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Raspberry Pi</span>
+                    </div>
+                    <a href="https://github.com/abeni-hub/SIDS-Monitoring-System" class="block mt-4 text-blue-500 hover:underline">View Details</a>
+                </div>
+            </div>
+            
+            <div class="bg-white/30 dark:bg-gray-800/30 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300">
+                 <img src="{{ asset('portfolios/todo.jpg') }}" alt="Bus Ticket Booking System" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold mb-3">Advanced TodoList</h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-4">A simple and efficient task management web app built with Laravel, designed to help users organize, track, and complete their daily tasks with ease.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Laravel</span>
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">sqlite</span>
+                    </div>
+                    <a href="https://github.com/abeni-hub/Advanced-Todo-list-with-laravel" class="block mt-4 text-blue-500 hover:underline">View Details</a>
                 </div>
             </div>
             <div class="bg-white/30 dark:bg-gray-800/30 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300">
@@ -38,35 +64,10 @@
                     <h3 class="text-2xl font-semibold mb-3">Bus Ticket Booking System</h3>
                     <p class="text-gray-600 dark:text-gray-400 mb-4">An online platform for booking bus tickets with real-time availability and payments.</p>
                     <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Laravel</span>
-                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Vue.js</span>
-                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">API Integration</span>
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Java</span>
+                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">MySQL</span>
                     </div>
-                    <a href="#" class="block mt-4 text-blue-500 hover:underline">View Details</a>
-                </div>
-            </div>
-            <div class="bg-white/30 dark:bg-gray-800/30 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300">
-                <img src="https://via.placeholder.com/400x200?text=Project+4" alt="Project 4" class="w-full h-48 object-cover">
-                <div class="p-6">
-                    <h3 class="text-2xl font-semibold mb-3">Project 4</h3>
-                    <p class="text-gray-600 dark:text-gray-400 mb-4">Description of Project 4. Replace with your details and image.</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Laravel</span>
-                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">React</span>
-                    </div>
-                    <a href="#" class="block mt-4 text-blue-500 hover:underline">View Details</a>
-                </div>
-            </div>
-            <div class="bg-white/30 dark:bg-gray-800/30 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300">
-                <img src="https://via.placeholder.com/400x200?text=Project+5" alt="Project 5" class="w-full h-48 object-cover">
-                <div class="p-6">
-                    <h3 class="text-2xl font-semibold mb-3">Project 5</h3>
-                    <p class="text-gray-600 dark:text-gray-400 mb-4">Description of Project 5. Replace with your details and image.</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Laravel</span>
-                        <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full text-sm font-medium">Node.js</span>
-                    </div>
-                    <a href="#" class="block mt-4 text-blue-500 hover:underline">View Details</a>
+                    <a href="https://github.com/abeni-hub/BUSTICKETPROJECT" class="block mt-4 text-blue-500 hover:underline">View Details</a>
                 </div>
             </div>
         </div>

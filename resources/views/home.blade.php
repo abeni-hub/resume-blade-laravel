@@ -4,9 +4,9 @@
 
 @section('content')
     <section class="text-center py-20 bg-gradient-to-br from-blue-500 to-purple-600 text-white rounded-2xl shadow-2xl mb-16">
-        <img src="https://via.placeholder.com/200x200?text=Professional+Photo" alt="Professional Photo" class="mx-auto mb-6 rounded-full shadow-xl w-48 h-48 object-cover">
-        <h1 class="text-6xl font-extrabold mb-6">Welcome to My Portfolio</h1>
-        <p class="text-2xl mb-8 max-w-2xl mx-auto">Discover my latest projects and skills in modern web development.</p>
+        <img src="{{ asset('portfolios/my photo.jpg') }}" alt="Professional Photo" class="mx-auto mb-6 rounded-full shadow-xl w-48 h-48 object-cover">
+        <h1 class="text-6xl font-extrabold mb-6">Hi I am Abeni</h1>
+        <p class="text-2xl mb-8 max-w-2xl mx-auto">I am Backend Web developer and Data Analyst</p>
         <a href="/projects" class="bg-white text-blue-600 px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition-all duration-300 shadow-lg">Explore Projects</a>
     </section>
     <section class="max-w-5xl mx-auto">
