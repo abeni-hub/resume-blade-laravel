@@ -63,8 +63,9 @@ The app will be available at: http://localhost:8000
 Use Laravel Sanctum / Passport / JWT tokens to authenticate API requests.
 
 **Contact**
-Contact 📬
 
 LinkedIn: Abenezer Sileshi
+
 Gmail: abinesilew@gmail.com
+
 Telegram: @Aben14i
